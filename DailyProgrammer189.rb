@@ -38,11 +38,10 @@ while lives < 10 do
 		displayword << filter[i]
 	end
 
+	# has the player won?
 	puts displayword
 	
-	# If the filter's got no "_" then we're done
-	
-	# did we lose a life?
+	# if still going, did we lose a life?
 	if (not(correct_guess))
 		lives += 1
 	end
